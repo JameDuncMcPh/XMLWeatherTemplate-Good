@@ -35,6 +35,7 @@
             this.dateLabel = new System.Windows.Forms.Label();
             this.currentLabel = new System.Windows.Forms.Label();
             this.weatherBox = new System.Windows.Forms.PictureBox();
+            this.windSLabel = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.weatherBox)).BeginInit();
             this.SuspendLayout();
             // 
@@ -50,7 +51,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(68, 227);
+            this.button1.Location = new System.Drawing.Point(68, 247);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(111, 23);
             this.button1.TabIndex = 1;
@@ -107,11 +108,22 @@
             this.weatherBox.TabIndex = 6;
             this.weatherBox.TabStop = false;
             // 
+            // windSLabel
+            // 
+            this.windSLabel.AutoSize = true;
+            this.windSLabel.Font = new System.Drawing.Font("Trebuchet MS", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.windSLabel.Location = new System.Drawing.Point(25, 219);
+            this.windSLabel.Name = "windSLabel";
+            this.windSLabel.Size = new System.Drawing.Size(42, 18);
+            this.windSLabel.TabIndex = 8;
+            this.windSLabel.Text = "label3";
+            // 
             // Current
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.Controls.Add(this.windSLabel);
             this.Controls.Add(this.currentLabel);
             this.Controls.Add(this.weatherBox);
             this.Controls.Add(this.dateLabel);
@@ -137,5 +149,6 @@
         private System.Windows.Forms.Label dateLabel;
         private System.Windows.Forms.PictureBox weatherBox;
         private System.Windows.Forms.Label currentLabel;
+        private System.Windows.Forms.Label windSLabel;
     }
 }

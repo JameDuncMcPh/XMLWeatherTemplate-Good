@@ -61,7 +61,7 @@
             // 
             this.windLAbel.AutoSize = true;
             this.windLAbel.Font = new System.Drawing.Font("Trebuchet MS", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.windLAbel.Location = new System.Drawing.Point(22, 110);
+            this.windLAbel.Location = new System.Drawing.Point(22, 105);
             this.windLAbel.Name = "windLAbel";
             this.windLAbel.Size = new System.Drawing.Size(42, 18);
             this.windLAbel.TabIndex = 10;
@@ -71,7 +71,7 @@
             // 
             this.tempLabel.AutoSize = true;
             this.tempLabel.Font = new System.Drawing.Font("Trebuchet MS", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tempLabel.Location = new System.Drawing.Point(22, 76);
+            this.tempLabel.Location = new System.Drawing.Point(22, 70);
             this.tempLabel.Name = "tempLabel";
             this.tempLabel.Size = new System.Drawing.Size(42, 18);
             this.tempLabel.TabIndex = 9;
@@ -79,7 +79,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(68, 322);
+            this.button1.Location = new System.Drawing.Point(68, 315);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(111, 25);
             this.button1.TabIndex = 8;
@@ -101,7 +101,7 @@
             // 
             this.date2Label.AutoSize = true;
             this.date2Label.Font = new System.Drawing.Font("Trebuchet MS", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.date2Label.Location = new System.Drawing.Point(22, 146);
+            this.date2Label.Location = new System.Drawing.Point(22, 138);
             this.date2Label.Name = "date2Label";
             this.date2Label.Size = new System.Drawing.Size(42, 18);
             this.date2Label.TabIndex = 15;
@@ -111,7 +111,7 @@
             // 
             this.wind2Label.AutoSize = true;
             this.wind2Label.Font = new System.Drawing.Font("Trebuchet MS", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.wind2Label.Location = new System.Drawing.Point(22, 205);
+            this.wind2Label.Location = new System.Drawing.Point(22, 198);
             this.wind2Label.Name = "wind2Label";
             this.wind2Label.Size = new System.Drawing.Size(42, 18);
             this.wind2Label.TabIndex = 14;
@@ -121,7 +121,7 @@
             // 
             this.temp2Label.AutoSize = true;
             this.temp2Label.Font = new System.Drawing.Font("Trebuchet MS", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.temp2Label.Location = new System.Drawing.Point(22, 173);
+            this.temp2Label.Location = new System.Drawing.Point(22, 168);
             this.temp2Label.Name = "temp2Label";
             this.temp2Label.Size = new System.Drawing.Size(42, 18);
             this.temp2Label.TabIndex = 13;
@@ -130,7 +130,7 @@
             // weather3Box
             // 
             this.weather3Box.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.weather3Box.Location = new System.Drawing.Point(129, 229);
+            this.weather3Box.Location = new System.Drawing.Point(129, 222);
             this.weather3Box.Name = "weather3Box";
             this.weather3Box.Size = new System.Drawing.Size(100, 87);
             this.weather3Box.TabIndex = 16;
@@ -139,7 +139,7 @@
             // weatherBox
             // 
             this.weatherBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.weatherBox.Location = new System.Drawing.Point(129, 44);
+            this.weatherBox.Location = new System.Drawing.Point(129, 36);
             this.weatherBox.Name = "weatherBox";
             this.weatherBox.Size = new System.Drawing.Size(100, 87);
             this.weatherBox.TabIndex = 12;
@@ -148,7 +148,7 @@
             // weather2Box
             // 
             this.weather2Box.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.weather2Box.Location = new System.Drawing.Point(129, 136);
+            this.weather2Box.Location = new System.Drawing.Point(129, 129);
             this.weather2Box.Name = "weather2Box";
             this.weather2Box.Size = new System.Drawing.Size(100, 87);
             this.weather2Box.TabIndex = 20;
@@ -158,7 +158,7 @@
             // 
             this.date3Label.AutoSize = true;
             this.date3Label.Font = new System.Drawing.Font("Trebuchet MS", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.date3Label.Location = new System.Drawing.Point(22, 239);
+            this.date3Label.Location = new System.Drawing.Point(22, 234);
             this.date3Label.Name = "date3Label";
             this.date3Label.Size = new System.Drawing.Size(42, 18);
             this.date3Label.TabIndex = 19;
@@ -168,7 +168,7 @@
             // 
             this.wind3Label.AutoSize = true;
             this.wind3Label.Font = new System.Drawing.Font("Trebuchet MS", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.wind3Label.Location = new System.Drawing.Point(22, 298);
+            this.wind3Label.Location = new System.Drawing.Point(22, 291);
             this.wind3Label.Name = "wind3Label";
             this.wind3Label.Size = new System.Drawing.Size(42, 18);
             this.wind3Label.TabIndex = 18;
@@ -178,7 +178,7 @@
             // 
             this.temp3Label.AutoSize = true;
             this.temp3Label.Font = new System.Drawing.Font("Trebuchet MS", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.temp3Label.Location = new System.Drawing.Point(22, 268);
+            this.temp3Label.Location = new System.Drawing.Point(22, 262);
             this.temp3Label.Name = "temp3Label";
             this.temp3Label.Size = new System.Drawing.Size(42, 18);
             this.temp3Label.TabIndex = 17;

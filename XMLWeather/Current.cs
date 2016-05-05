@@ -77,6 +77,12 @@ namespace XMLWeather
                         if (grandchild.Name == "speed")
                         {
                             windLAbel.Text = grandchild.Attributes["name"].Value;
+                            windSLabel.Text = grandchild.Attributes["value"].Value;
+                        }
+
+                        if (grandchild.Name == "direction")
+                        {
+                            windSLabel.Text += " " + grandchild.Attributes["name"].Value;
                         }
                     }
                 }
